@@ -7,7 +7,7 @@ import '@/styles/colors.css';
 export const myFont = localFont({
   src:
 
-    '../../public/fonts/din.otf',
+    '../../public/fonts/mid.otf',
 })
 
 
