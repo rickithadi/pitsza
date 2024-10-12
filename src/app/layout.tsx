@@ -4,12 +4,6 @@ import * as React from 'react';
 import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
-export const myFont = localFont({
-  src:
-
-    '../../public/fonts/mid.otf',
-})
-
 
 
 import Head from 'next/head';
@@ -56,6 +50,12 @@ import Link from 'next/link';
 //   //   },
 //   // ],
 // };
+const myFont = localFont({
+  src:
+
+    '../../public/fonts/mid.otf',
+})
+
 
 export default function RootLayout({
   children,
@@ -64,7 +64,7 @@ export default function RootLayout({
 }) {
 
   return (
-    <html className={myFont.className}>
+    <html className={myFont.className} >
       <Head >
         <title>Bake & Shake</title>
         <meta name="description" content="Bake & Shake Pizza Home" />

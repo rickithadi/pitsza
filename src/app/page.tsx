@@ -5,8 +5,15 @@ import * as React from 'react';
 import '@/lib/env';
 
 import Header from '@/components/Header';
+import localFont from 'next/font/local';
 
-import { myFont } from '@/app/layout';
+const myFont = localFont({
+  src:
+
+    '../../public/fonts/mid.otf',
+})
+
+
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
