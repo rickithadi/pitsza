@@ -1,11 +1,12 @@
 'use client';
 
+import Link from 'next/link';
 import * as React from 'react';
 import '@/lib/env';
 
 import Header from '@/components/Header';
+
 import { myFont } from '@/app/layout';
-import Link from 'next/link';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
@@ -26,7 +27,7 @@ export default function HomePage() {
         <div className="container mx-auto text-center">
 
 
-          <img src='/images/banner.jpg' width={'100%'} />
+          <img src='/images/banner.jpg' width="100%" />
 
 
           <p className={`${myFont.className} p-12 text-[#f7ed3b]`} >Amazing pizza is more than just food – it’s the centrepiece for gatherings with loved ones. From the Chicken Supreme to the Pepperoni Max there’s always something amazing to try on our pizza menu. It’s what makes us the fave pizza restaurant near you.

@@ -2,8 +2,9 @@
 // pages/contact.js
 
 "use client"
-import Carousel from "@/app/carousel";
 import Header from "@/components/Header";
+
+import Carousel from "@/app/carousel";
 
 export default function Contact() {
   return (

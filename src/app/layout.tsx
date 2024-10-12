@@ -1,11 +1,15 @@
+import localFont from 'next/font/local'
 import * as React from 'react';
-import { Metadata } from 'next';
 
 import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
-import localFont from 'next/font/local'
-export const myFont = localFont({ src: '/mid.otf' })
+export const myFont = localFont({
+  src:
+
+    '../../public/fonts/din.otf',
+})
+
 
 
 import Head from 'next/head';

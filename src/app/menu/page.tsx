@@ -1,8 +1,10 @@
 // app/menu/pizza/page.js
 "use client"
-import Carousel from "@/app/carousel";
-import Header from "@/components/Header";
 import Link from "next/link";
+
+import Header from "@/components/Header";
+
+import Carousel from "@/app/carousel";
 type Item = { name: string, desc: string, p1: number, p2: number, p3: number }
 const pizzaList = [
   {
