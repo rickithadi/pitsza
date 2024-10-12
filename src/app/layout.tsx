@@ -9,6 +9,7 @@ export const myFont = localFont({ src: '/mid.otf' })
 
 
 import Head from 'next/head';
+import Link from 'next/link';
 
 // !STARTERCONF Change these default meta
 // !STARTERCONF Look at @/constant/config to change them
@@ -71,9 +72,9 @@ export default function RootLayout({
           <div className="container mx-auto text-center">
             <p className={myFont.className}>&copy; 2024 Bake & Shake. All rights reserved.</p>
             <div className="mt-4 space-x-4">
-              <a href="#" className="hover:underline">Terms of Service</a>
-              <a href="#" className="hover:underline">Privacy Policy</a>
-              <a href="#" className="hover:underline">Contact Us</a>
+              <Link href="#" className="hover:underline">Terms of Service</Link>
+              <Link href="#" className="hover:underline">Privacy Policy</Link>
+              <Link href="/contact" className="hover:underline">Contact Us</Link>
             </div>
           </div>
         </footer>

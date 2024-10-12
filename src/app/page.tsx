@@ -29,7 +29,7 @@ export default function HomePage() {
           <img src='/images/banner.jpg' width={'100%'} />
 
 
-          <p className={`${myFont.className} p-12 text-[#f7ed3b]`} >Amazing pizza is more than just food – it’s the centrepiece for gatherings with loved ones. From the Triple-Decker® Topped to the Real Deal there’s always something amazing to try on our pizza menu. It’s what makes us the fave pizza restaurant near you.
+          <p className={`${myFont.className} p-12 text-[#f7ed3b]`} >Amazing pizza is more than just food – it’s the centrepiece for gatherings with loved ones. From the Chicken Supreme to the Pepperoni Max there’s always something amazing to try on our pizza menu. It’s what makes us the fave pizza restaurant near you.
 
           </p>
 
@@ -57,7 +57,7 @@ export default function HomePage() {
           <div className="w-full md:w-1/2 flex flex-col items-start space-y-4 md:pl-8 p-2">
             <h2 className="text-4xl md:text-5xl font-bold">The Amazing<br />BAKE & SHAKE PIZZA<br />Story</h2>
             <p className="text-lg md:text-xl">
-              The Bake & Shake Pizza menu has been bringing families together, over something amazing to share, since 1991. It's how we became the fave pizza restaurant near you. With so many ways to order, getting your amazing pizza delivery is always just a call or click away. And we always deliver in style.
+              The Bake & Shake Pizza menu has been bringing families together over something amazing to share for a long time. It's how we became the fave pizza restaurant near you. With so many ways to order, getting your amazing pizza delivery is always just a call or click away. And we always deliver in style.
             </p>
             <Link href="#about">
               <button className="bg-yellow hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-full mt-4  hover:scale-110 ">
@@ -74,14 +74,12 @@ export default function HomePage() {
             <img src="/images/eat.jpg" alt="Pizza Delivery" className="w-full h-64 object-contain rounded-md mb-4" />
             <h3 className="text-2xl font-bold mb-2">All You Can Eat</h3>
             <p className="text-sm mb-4">When it comes to amazing pizza, we always deliver! With so many ways to order, ordering your fave pizzas for delivery has never been easier!</p>
-            <button className="bg-yellow-500 text-black py-2 px-4 rounded-full hover:bg-yellow-600">ORDER ONLINE FOR DELIVERY</button>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <img src="/images/car2.jpg" alt="Order Pizza" className="w-full h-64 object-cover rounded-md mb-4" />
             <h3 className="text-2xl font-bold mb-2">AMAZING Pan Pizza</h3>
             <p className="text-sm mb-4">Delivery or collect – we've got more ways to order pizza online. Let’s just say it’s a love letter to your taste buds.</p>
-            <button className="bg-yellow-500 text-black py-2 px-4 rounded-full hover:bg-yellow-600">FIND YOUR WAY TO ORDER</button>
           </div>
         </div>
       </section>

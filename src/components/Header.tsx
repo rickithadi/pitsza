@@ -30,7 +30,7 @@ const Header = () => {
 
         <Link href="/" className="text-white hover:underline">About Us</Link>
         <Link href="/menu" className="text-white hover:underline">Menu</Link>
-        <Link href="/" className="text-white hover:underline">Contact</Link>
+        <Link href="/contact" className="text-white hover:underline">Contact</Link>
       </nav>
     </div>
     {/* Mobile Dropdown Menu */}
