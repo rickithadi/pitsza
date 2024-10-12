@@ -1,10 +1,8 @@
 'use client';
 
-import localFont from 'next/font/local'
 import * as React from 'react';
 import '@/lib/env';
 
-import Carousel from '@/app/carousel';
 import Header from '@/components/Header';
 import { myFont } from '@/app/layout';
 import Link from 'next/link';
@@ -24,7 +22,7 @@ export default function HomePage() {
       <video loop autoPlay muted width="1920" height="728" poster="" preload="auto"><source src="/images/menu.mp4" type="video/mp4" />Your browser does not support the <code>video</code> tag.</video>
 
       {/* Categories Section */}
-      <section className="p-6 bg-[#d60115]">
+      <section className="p-6   bg-[#d60115]">
         <div className="container mx-auto text-center">
 
 
@@ -41,45 +39,9 @@ export default function HomePage() {
               Learn More About Bake & Shake
             </button>
           </Link>
-          <h3 className="text-3xl font-bold m-8 ">Have a look at our amazing menus</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className=" p-6  rounded">
-              <h4 className="text-xl font-bold mb-4">Pizza</h4>
-              <p>Delight in our range of mouth-watering pizzas with various toppings.</p>
-              <Link
-                href="/menu">
-                <button
-                  className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4">
-                  Our Pizzas
-                </button>
-              </Link>
-            </div>
-            <div className=" p-6  rounded">
-              <h4 className="text-xl font-bold mb-4">Pastas</h4>
-              <p>Add delicious sides to your meal for the perfect combo.</p>
-              <Link
-                href="/menu#pasta">
-                <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4">
-                  Learn More About Bake & Shake
-                </button></Link>
-            </div>
-            <div className=" p-6 rounded">
-              <h4 className="text-xl font-bold mb-4">Parmis</h4>
-              <p>Finish off with our indulgent desserts for a sweet treat.</p>
-              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4">
-                Learn More About Bake & Shake
-              </button>
-            </div>
-            <div className=" p-6 rounded">
-              <h4 className="text-xl font-bold mb-4">Crazy Shakes & Gelatos</h4>
-              <p>Finish off with our indulgent desserts for a sweet treat.</p>
-              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4">
-                Learn More About Bake & Shake
-              </button>
-            </div>
-          </div>
         </div>
       </section>
+
       <div className="bg-orange text-white py-8" id="about">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           {/* Image Section */}
@@ -124,7 +86,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="bg-red text-white py-8">
+      <div className="bg-red text-white py-8" id='red'>
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           {/* Image Section */}
           {/* Content Section */}
@@ -150,7 +112,59 @@ export default function HomePage() {
       </div>
 
 
-    </div>
+
+      <section className='bg-orange ' id='menu'>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-10">
+
+
+          <div className=" p-6  bg-gray-800 rounded-md hover:bg-red z-10">
+            <Link href='/menu#pizza'>
+              <h4 className="text-xl font-bold mb-4 text-white">Pizza</h4>
+              <p className='pb-4 text-white'>Delight in our range of mouth-watering pizzas with various toppings.</p>
+              <img src='images/car1.jpg' className="w-full h-64 object-cover rounded-md mb-4 object:contain" />
+              <button
+                className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+                Our Pizzas
+              </button>
+            </Link>
+          </div>
+          <div className=" p-6  bg-gray-800   rounded-md hover:bg-red z-10">
+            <Link href='/menu#pasta'>
+              <h4 className="text-xl font-bold mb-4 text-white">Pastas</h4>
+              <p className="pb-4 text-white">Add delicious sides to your meal for the perfect combo.</p>
+              <img src='images/pasta.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
+              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+                Learn More About Bake & Shake
+              </button></Link>
+          </div>
+          <div className=" p-6   bg-gray-800  rounded-md hover:bg-red z-10">
+
+            <Link href='/menu#parmi'>
+              <h4 className="text-xl font-bold mb-4 text-white">Parmis</h4>
+              <p className="pb-4 text-white">Finish off with our indulgent desserts for a sweet treat.</p>
+              <img src='images/parmi.webp' className="w-full h-64 object-cover rounded-md mb-4" />
+              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+                Learn More About Bake & Shake
+              </button>
+            </Link>
+          </div>
+          <div className=" p-6 bg-gray-800 rounded-md hover:bg-red z-10">
+
+            <Link href='/menu#shake'>
+              <h4 className="text-xl font-bold mb-4 text-white">Crazy Shakes & Gelatos</h4>
+              <p className="pb-4 text-white">Finish off with our indupglgent desserts for a sweet treat.</p>
+
+              <img src='images/milk.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
+              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+                Learn More About Bake & Shake
+              </button></Link>
+          </div>
+        </div>
+      </section >
+
+
+
+    </div >
   );
 }
 
