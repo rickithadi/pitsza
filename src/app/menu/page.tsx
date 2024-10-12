@@ -262,21 +262,21 @@ const Menu = () => {
             </Link>
           </h4>
           <h4 className="text-white hover:text-yellow">
-            <Link href="#pizza" >
+            <Link href="#pasta" >
 
               Pastas
 
             </Link>
           </h4>
           <h4 className="text-white hover:text-yellow">
-            <Link href="#pizza" >
+            <Link href="#parmi" >
 
               Parmis
 
             </Link>
           </h4>
           <h4 className="text-white hover:text-yellow">
-            <Link href="#pizza" >
+            <Link href="#shake" >
 
               Shakes
             </Link>

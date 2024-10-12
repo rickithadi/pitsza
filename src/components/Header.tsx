@@ -28,20 +28,33 @@ const Header = () => {
       </div>
       <nav className="hidden md:flex md:space-x-6">
 
-        <a href="#" className="text-white hover:underline">About Us</a>
-        <a href="#" className="text-white hover:underline">Menu</a>
-        <a href="#" className="text-white hover:underline">Contact</a>
+        <Link href="/" className="text-white hover:underline">About Us</Link>
+        <Link href="/menu" className="text-white hover:underline">Menu</Link>
+        <Link href="/" className="text-white hover:underline">Contact</Link>
       </nav>
     </div>
     {/* Mobile Dropdown Menu */}
     {
       isMenuOpen && (
-        <div className="fixed inset-0 bg-black opacity-85 z-40 flex flex-col items-center justify-center pt-16 h-screen">
+        <div className="fixed inset-0 bg-black opacity-85 z-40 flex flex-col items-center justify-center pt-16 h-screen z-99">
 
-          <nav className="flex flex-col items-start p-4 space-y-2">
-            <a href="#" className="text-white hover:underline">About Us</a>
-            <a href="#" className="text-white hover:underline">Menu</a>
-            <a href="#" className="text-white hover:underline">Contact</a>
+          <nav className="flex flex-col items-start p-4 space-y-4">
+            <Link href="/" className="text-white hover:underline hover:text-yellow">
+              <h2>
+                About Us
+              </h2>
+            </Link>
+            <Link href="/menu" className="text-white hover:underline hover:text-yellow">
+              <h2>
+                Menu
+              </h2>
+            </Link>
+            <Link href="/" className="text-white hover:text-yellow hover:underline">
+              <h2>
+                Contact
+              </h2>
+            </Link>
+
           </nav>
         </div>
       )
