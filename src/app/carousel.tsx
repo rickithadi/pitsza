@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 const Carousel = () => {
   const images = [
-    '/images/car1.jpg',
+    '/images/banner.webp',
     // '/images/car2.jpg',
-    // '/images/car3.jpg',
+    // '/images/car1.jpg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,9 +26,12 @@ const Carousel = () => {
             key={index}
             className="relative w-full flex-shrink-0 h-full"
           >
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center text-white p-4">
-              <h2 className="text-4xl font-bold ">bda</h2>
-            </div>
+            {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center text-white p-4">
+              <span>Welcome to </span>
+              <h2 className="text-4xl font-bold ">Bake & Shake </h2>
+
+              <span>Pizza</span>
+            </div> */}
             <img
               key={index}
               src={image}
