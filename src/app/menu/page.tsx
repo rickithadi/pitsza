@@ -213,7 +213,7 @@ function MenuTable({ itemList }: any) {
   const hideSize = itemList.some((item: any) => item.p2 == 0 || item.p3 == 0);
 
   return (
-    <table className="table-auto w-full">
+    <table className="table-auto w-full max-w-screen-md mx-auto">
       <thead>
         <tr className="py-2">
           <th></th>

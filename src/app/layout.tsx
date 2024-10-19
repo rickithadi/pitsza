@@ -9,6 +9,7 @@ import '@/styles/colors.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import { siteConfig } from '@/constant/config';
+import { Metadata } from 'next';
 
 // !STARTERCONF Change these default meta
 // !STARTERCONF Look at @/constant/config to change them

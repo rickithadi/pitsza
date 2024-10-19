@@ -42,9 +42,9 @@ export default function HomePage() {
           </p>
 
 
-          <Link href="#about">
+          <Link href="/menu">
             <button className="bg-yellow hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-full mt-4  hover:scale-110 p2 ">
-              Learn More About Bake & Shake
+              Our Menu
             </button>
           </Link>
         </div>
@@ -121,45 +121,45 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-10">
 
 
-          <div className=" p-6  bg-gray-800 rounded-md hover:bg-red z-10">
+          <div className=" p-6  bg-gray-800 rounded-md z-10">
             <Link href='/menu#pizza'>
               <h4 className="text-xl font-bold mb-4 text-white">Pizza</h4>
               <p className='pb-4 text-white'>Delight in our range of mouth-watering pizzas with various toppings.</p>
               <img src='images/car1.jpg' className="w-full h-64 object-cover rounded-md mb-4 object:contain" />
               <button
-                className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+                className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Pizzas
               </button>
             </Link>
           </div>
-          <div className=" p-6  bg-gray-800   rounded-md hover:bg-red z-10">
+          <div className=" p-6  bg-gray-800   rounded-md z-10">
             <Link href='/menu#pasta'>
               <h4 className="text-xl font-bold mb-4 text-white">Pastas</h4>
               <p className="pb-4 text-white">Add delicious sides to your meal for the perfect combo.</p>
               <img src='images/pasta.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
-              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+              <button className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Pastas
               </button></Link>
           </div>
-          <div className=" p-6   bg-gray-800  rounded-md hover:bg-red z-10">
+          <div className=" p-6   bg-gray-800  rounded-md z-10">
 
             <Link href='/menu#parmi'>
               <h4 className="text-xl font-bold mb-4 text-white">Parmis</h4>
               <p className="pb-4 text-white">Finish off with our indulgent desserts for a sweet treat.</p>
               <img src='images/parmi.webp' className="w-full h-64 object-cover rounded-md mb-4" />
-              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+              <button className="bg-orange text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Parmis
               </button>
             </Link>
           </div>
-          <div className=" p-6 bg-gray-800 rounded-md hover:bg-red z-10">
+          <div className=" p-6 bg-gray-800 rounded-md  z-10">
 
             <Link href='/menu#shake'>
               <h4 className="text-xl font-bold mb-4 text-white">Crazy Shakes & Gelatos</h4>
               <p className="pb-4 text-white">Finish off with our indupglgent desserts for a sweet treat.</p>
 
               <img src='images/milk.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
-              <button className="bg-orange hover:bg-red text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
+              <button className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Shakes
               </button></Link>
           </div>
