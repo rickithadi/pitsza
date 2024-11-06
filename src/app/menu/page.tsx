@@ -23,7 +23,7 @@ const pizzaList = [
     desc: 'Mushroom, diced tomato, Red/Green capsicum, Onion, black olives, mozzarella cheese. Tomato orBBQ sauce.', p1: 65, p2: 80, p3: 95
   },
   {
-    name: 'Peperoni Max',
+    name: 'pepperoni Max',
     desc: 'Pepperoni, mozzarella cheese. Tomato or BBQ.',
     p1: 80,
     p2: 95,
@@ -31,7 +31,7 @@ const pizzaList = [
   },
   {
     name: 'Mexican Meat Lovers',
-    desc: 'Chorizo sausage, ground beef, peperoni, beet belly bacon, onion, jalapeno, taco sprinkle, salsa, chili flakes, mozzarella cheese. Tomato or BBQ sauce.',
+    desc: 'Chorizo sausage, ground beef, pepperoni, beef belly bacon, onion, jalapeno, taco sprinkle, salsa, chilli flakes, mozzarella cheese. Tomato or BBQ sauce.',
     p1: 90,
     p2: 110,
     p3: 125
@@ -44,13 +44,13 @@ const pizzaList = [
     p3: 150
   }, {
     name: 'Crazy Hot Pants (The Ring Stinger)',
-    desc: 'Pepperoni, hot salami, chorizo sausage, Beef belly bacon, Red/green capsicum, jalapeno, fine cut Birdseye chili, onion, mozzarella cheese, (Tomato,•Sambal, Samyang sauce blend) Only for the brave or crazy.',
+    desc: 'Pepperoni, hot salami, chorizo sausage, Beef belly bacon, Red/green capsicum, jalapeno, fine cut Birdseye chilli, onion, mozzarella cheese, (Tomato, Sambal, Samyang sauce blend) Only for the brave or crazy.',
     p1: 110,
     p2: 125,
     p3: 140
   }, {
     name: 'The Kitchen Sink',
-    desc: 'Peperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese. Tomato or BBQ sauce',
+    desc: 'pepperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese, Tomato or BBQ sauce',
     p1: 90,
     p2: 110,
     p3: 125
@@ -62,7 +62,7 @@ const pizzaList = [
     p3: 95
   }, {
     name: 'Tomato cheese',
-    desc: 'Diced Tomato, mozzarella chese, Tomato or BBQ saucw',
+    desc: 'Diced Tomato, mozzarella cheese, Tomato or BBQ sauce',
     p1: 45,
     p2: 60,
     p3: 85
@@ -102,7 +102,7 @@ const pastaList = [
     p3: 0
   },
   {
-    name: 'Peperoni Max',
+    name: 'pepperoni Max',
     desc: 'Pepperoni, mozzarella cheese',
     p1: 75,
     p2: 0,
@@ -124,7 +124,7 @@ const pastaList = [
   },
   {
     name: 'Mexican meat lovers',
-    desc: 'Chorizo sausage, ground beef, peperoni, beef belly bacon, onion, jalapeno, taco sprinkle, salsa, chili flakes, mozzarella cheese',
+    desc: 'Chorizo sausage, ground beef, pepperoni, beef belly bacon, onion, jalapeno, taco sprinkle, salsa, chilli flakes, mozzarella cheese',
     p1: 80,
     p2: 0,
     p3: 0
@@ -140,7 +140,7 @@ const pastaList = [
     name: 'Crazy Hot Pants (The Ring Stinger)',
     desc: `Pepperoni, hot salami, chorizo sausage,
 Beef belly bacon,
-Red/green capsicum, jalapeno, fine cut Birdseye chili, onion mozzarella cheese (Tomato, Sambal, Samyang sauce blend)
+Red/green capsicum, jalapeno, fine cut Birdseye chilli, onion mozzarella cheese (Tomato, Sambal, Samyang sauce blend)
 Only for the brave or crazy.`,
     p1: 85,
     p2: 0,
@@ -148,7 +148,7 @@ Only for the brave or crazy.`,
   },
   {
     name: 'The Kitchen Sink',
-    desc: 'Peperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese',
+    desc: 'pepperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese',
     p1: 80,
     p2: 0,
     p3: 0
@@ -164,7 +164,7 @@ const parmiList = [
     p3: 0
   },
   {
-    name: 'Peperoni Max',
+    name: 'pepperoni Max',
     desc: 'Pepperoni, mozzarella cheese',
     p1: 95,
     p2: 0,
@@ -178,7 +178,7 @@ const parmiList = [
     p3: 0
   },
   {
-    name: 'Mexican Supreme N',
+    name: 'Mexican Supreme',
     desc: 'Red/green capsicum, onion, jalapeno, diced tomato, taco sprinkle, salsa, chilli flakes, mozzarella cheese',
     p1: 110,
     p2: 0,
@@ -186,7 +186,7 @@ const parmiList = [
   },
   {
     name: 'Mexican meat lovers',
-    desc: 'Chorizo sausage, ground beef, peperoni, beef belly bacon, onion, jalapeno, taco sprinkle, salsa, chili flakes, mozzarella cheese',
+    desc: 'Chorizo sausage, ground beef, pepperoni, beef belly bacon, onion, jalapeno, taco sprinkle, salsa, chilli flakes, mozzarella cheese',
     p1: 105,
     p2: 0,
     p3: 0
@@ -195,7 +195,7 @@ const parmiList = [
     name: 'Crazy Hot Pants (The Ring Stinger)',
     desc: `Pepperoni, hot salami, chorizo sausage,
 Beef belly bacon,
-Red/green capsicum, jalapeno, fine cut Birdseye chili, onion mozzarella cheese (Tomato, Sambal, Samyang sauce blend)
+Red/green capsicum, jalapeno, fine cut Birdseye chilli, onion mozzarella cheese (Tomato, Sambal, Samyang sauce blend)
 Only for the brave or crazy.`,
     p1: 110,
     p2: 0,
@@ -203,7 +203,7 @@ Only for the brave or crazy.`,
   },
   {
     name: 'The Kitchen Sink',
-    desc: 'Peperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese',
+    desc: 'pepperoni, salami, sausage, beef belly bacon, Red/green capsicum, onion, mushroom, mozzarella cheese',
     p1: 110,
     p2: 0,
     p3: 0
