@@ -209,6 +209,51 @@ Only for the brave or crazy.`,
     p3: 0
   }
 ]
+const shakeList = [
+  {
+    name: 'Oreo Shake',
+    desc: "",
+    p1: 95,
+    p2: 0,
+    p3: 0
+  },
+  {
+    name: 'Strawberry Shake',
+    desc: '',
+    p1: 95,
+    p2: 0,
+    p3: 0
+  },
+  {
+    name: 'Salted Caramel Shake',
+    desc: '',
+    p1: 95,
+    p2: 0,
+    p3: 0
+  },
+  {
+    name: 'Magnum Shake',
+    desc: '',
+    p1: 105,
+    p2: 0,
+    p3: 0
+  },
+  {
+    name: 'Coffee Shake',
+    desc: '',
+    p1: 95,
+    p2: 0,
+    p3: 0
+  },
+  {
+    name: 'Nutella',
+    desc: ``,
+    p1: 95,
+    p2: 0,
+    p3: 0
+  }
+
+]
 function MenuTable({ itemList }: any) {
   const hideSize = itemList.some((item: any) => item.p2 == 0 || item.p3 == 0);
 
@@ -305,6 +350,7 @@ const Menu = () => {
       <div className=" mx-auto p-4 " id="shake">
         <h1 className="text-3xl font-bold text-center my-6">Crazy Shakes & Gelatos </h1>
 
+        <MenuTable itemList={shakeList} />
       </div>
     </>
 

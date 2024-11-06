@@ -86,7 +86,7 @@ export default function HomePage() {
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <img src="/images/car2.jpg" alt="Order Pizza" className="w-full h-64 object-cover rounded-md mb-4" />
-            <h3 className="text-2xl font-bold mb-2">AMAZING Pan Pizza</h3>
+            <h3 className="text-2xl font-bold mb-2">Amazing Pan Pizza</h3>
             <p className="text-sm mb-4">Delivery or collect – we've got more ways to order pizza online. Let’s just say it’s a love letter to your taste buds.</p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
           <div className="w-full md:w-1/2 flex flex-col items-start space-y-4 md:pl-8 ">
             <h2 className="text-4xl md:text-5xl font-bold">The Amazing<br />Bake & Shake<br />Story</h2>
             <p className="text-lg md:text-xl">
-              The Bake & Shake Pizza menu has been bringing families together, over something amazing to share, since 1991. It's how we became the fave pizza restaurant near you. With so many ways to order, getting your amazing pizza delivery is always just a call or click away. And we always deliver in style.
+              The Bake & Shake Pizza menu has been bringing families together, over something amazing to share, since 2024. It's how we became the fave pizza restaurant near you. With so many ways to order, getting your amazing pizza delivery is always just a call or click away. And we always deliver in style.
             </p>
 
           </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
           <div className=" p-6  bg-gray-800   rounded-md z-10">
             <Link href='/menu#pasta'>
               <h4 className="text-xl font-bold mb-4 text-white">Pastas</h4>
-              <p className="pb-4 text-white">Add delicious sides to your meal for the perfect combo.</p>
+              <p className="pb-4 text-white">Indulge in our selection of delicious pastas.</p>
               <img src='images/pasta.jpg' className="w-full h-64 object-cover rounded-md mb-4 object-bottom" />
               <button className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Pastas
@@ -145,7 +145,7 @@ export default function HomePage() {
 
             <Link href='/menu#parmi'>
               <h4 className="text-xl font-bold mb-4 text-white">Parmis</h4>
-              <p className="pb-4 text-white">Finish off with our indulgent desserts for a sweet treat.</p>
+              <p className="pb-4 text-white">Experience our delectable Parmis.</p>
               <img src='images/parmi.webp' className="w-full h-64 object-cover rounded-md mb-4 object-center " />
               <button className="bg-orange text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Parmis
@@ -156,7 +156,7 @@ export default function HomePage() {
 
             <Link href='/menu#shake'>
               <h4 className="text-xl font-bold mb-4 text-white">Crazy Shakes & Gelatos</h4>
-              <p className="pb-4 text-white">Finish off with our indupglgent desserts for a sweet treat.</p>
+              <p className="pb-4 text-white">Finish off with our indulgent desserts for a sweet treat.</p>
               <div className='flex'>
                 <img src='images/shake.jpeg' className="w-1/2 h-64 object-contain rounded-md mb-4" />
                 <img src='images/shake2.jpeg' className="w-1/2 h-64 object-contain rounded-md mb-4" />
