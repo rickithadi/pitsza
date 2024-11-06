@@ -136,7 +136,7 @@ export default function HomePage() {
             <Link href='/menu#pasta'>
               <h4 className="text-xl font-bold mb-4 text-white">Pastas</h4>
               <p className="pb-4 text-white">Add delicious sides to your meal for the perfect combo.</p>
-              <img src='images/pasta.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
+              <img src='images/pasta.jpg' className="w-full h-64 object-cover rounded-md mb-4 object-bottom" />
               <button className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Pastas
               </button></Link>
@@ -146,7 +146,7 @@ export default function HomePage() {
             <Link href='/menu#parmi'>
               <h4 className="text-xl font-bold mb-4 text-white">Parmis</h4>
               <p className="pb-4 text-white">Finish off with our indulgent desserts for a sweet treat.</p>
-              <img src='images/parmi.webp' className="w-full h-64 object-cover rounded-md mb-4" />
+              <img src='images/parmi.webp' className="w-full h-64 object-cover rounded-md mb-4 object-center " />
               <button className="bg-orange text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Parmis
               </button>
@@ -157,8 +157,10 @@ export default function HomePage() {
             <Link href='/menu#shake'>
               <h4 className="text-xl font-bold mb-4 text-white">Crazy Shakes & Gelatos</h4>
               <p className="pb-4 text-white">Finish off with our indupglgent desserts for a sweet treat.</p>
-
-              <img src='images/milk.jpg' className="w-full h-64 object-cover rounded-md mb-4" />
+              <div className='flex'>
+                <img src='images/shake.jpeg' className="w-1/2 h-64 object-contain rounded-md mb-4" />
+                <img src='images/shake2.jpeg' className="w-1/2 h-64 object-contain rounded-md mb-4" />
+              </div>
               <button className="bg-orange  text-white font-bold py-3 px-6 rounded-full mt-4 float-end">
                 Our Shakes
               </button></Link>
